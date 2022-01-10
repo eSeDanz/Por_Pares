@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+h1 {
+	font-family: 'Sriracha', cursive;
+	background-color: orange;
+	color: white;
+	text-align: center;
+}
+
+img {
+	float: left;
+	height: 200px;
+	width: 200px;
+}
+
+section.blue {
+	color: blue;
+}
+
+hr.blue {
+	background-color: blue;
+	height: 15px;
+}
+
+nav {
+	background-color: light-blue;
+}
