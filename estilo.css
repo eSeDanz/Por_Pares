@@ -1,13 +1,41 @@
 @charset "UTF-8";
 
+body {
+	border: 3px solid orange;
+}
+
 h1 {
 	font-family: 'Sriracha', cursive;
 	background-color: orange;
 	color: white;
 	text-align: center;
+	margin: -1px;
 }
 
-img {
+nav {
+	background-color: rgb(110, 196, 211);
+	position: relative;
+	height: 30px;
+	margin: -1px;
+}
+
+a {
+	border: 1px solid black;
+	padding: 2px;
+	position: relative;
+	top: 3px;
+	left: 35px;
+}
+
+a:link {
+	color: blue;
+}
+
+a:visited {
+	color: rgb(56, 56, 136);
+}
+
+img.izquierda {
 	float: left;
 	height: 165px;
 	width: 200px;
@@ -16,15 +44,14 @@ img {
 section.blue {
 	color: blue;
 	position: relative;
-	top: -10px;
+	top: 12px;
+	margin: -1px;
 }
 
 hr.blue {
 	background-color: blue;
-	height: 15px;
-	position: relative;
-	left: -1px;
-	z-index: -1;
+	height: 15px;	
+	border: 0px;
 }
 
 hr.blue2 {
@@ -32,13 +59,7 @@ hr.blue2 {
 	height: 15px;
 	position: relative;
 	top: -30px;
-}
-
-nav {
-	background-color: rgba(124, 177, 190, 0.664);
-	position: relative;
-	top: -21px;
-	height: 30px;
+	border: 0px;
 }
 
 p.desplazado {
@@ -47,6 +68,71 @@ p.desplazado {
 	font-weight: bold;
 }
 
-a {
-	border: 1px solid black;
+section.red {
+	background-color: rgb(110, 196, 211);
+	color: red;
+	position: relative;
+	margin: -1px;
+}
+
+img.derecha {
+	float: right;
+	height: 165px;
+	width: 200px;
+	position: relative;
+	top: 20px;
+	z-index: 1;
+}
+
+hr.red {
+	background-color: red;
+	height: 15px;
+	position: relative;
+	top: 20px;
+	border: 0px;
+}
+
+hr.red2 {
+	background-color: red;
+	height: 15px;
+	position: relative;
+	top: -15px;
+	border: 0px;
+}
+
+p.dos {
+	font-weight: bold;
+}
+
+footer {
+	background-color: lightsalmon;
+	position: relative;
+	top: -10px;
+	margin: -1px;
+	height: 75px;
+}
+
+hr.final {
+	position: relative;
+	top: 20px;
+	background-color: rgb(110, 196, 211);
+	height: 1px;
+}
+
+p.centrado {
+	text-align: center;
+	font-weight: bold;
+	position: relative;
+	top: 15px;
+}
+
+hr.orange {
+	box-sizing: content-box;
+	background-color: orange;
+	height: 20px;	
+	margin: -1px;
+	padding: 0px;
+	position: relative;
+	bottom: 5px;
+	border: 0px; 
 }
