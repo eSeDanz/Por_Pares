@@ -3,6 +3,7 @@
 body {
 	border: 3px solid orange;
 	border-bottom: 25px solid orange;
+	margin: 0px;
 }
 
 h1 {
