@@ -1,13 +1,15 @@
 @charset "UTF-8";
 
+
 body {
 	border: 3px solid orange;
 	border-bottom: 25px solid orange;
 	margin: 0px;
+	background-color: orange;
 }
 
 h1 {
-	font-family: 'Sriracha', cursive;
+	font-family: 'Sriracha';
 	background-color: orange;
 	color: white;
 	text-align: center;
@@ -18,7 +20,7 @@ nav {
 	background-color: rgb(110, 196, 211);
 	position: relative;
 	height: 30px;
-	margin: -1px;
+	
 }
 
 a {
@@ -41,19 +43,33 @@ img.izquierda {
 	float: left;
 	height: 165px;
 	width: 200px;
+	margin:0px;
+	padding:0px;
 }
 
 section.blue {
+	background-color: white;
 	color: blue;
 	position: relative;
-	top: 12px;
-	margin: -1px;
+	margin: 0px;
+	padding: 0px;
+	
+}
+section.swhite {
+	background-color: white;
+	position: relative;
+	height: 20px;
+
+	margin: 0px;
+	padding: 0px;
+	
 }
 
 hr.blue {
 	background-color: blue;
 	height: 15px;	
 	border: 0px;
+	margin: 0px;
 }
 
 hr.blue2 {
@@ -128,13 +144,13 @@ p.centrado {
 	top: 15px;
 }
 
-hr.orange {
+hr.white {
 	box-sizing: content-box;
-	background-color: orange;
-	height: 20px;	
-	margin: -1px;
+	background-color: white;
+	height: 30px;	
+	margin: 0px;
 	padding: 0px;
 	position: relative;
-	bottom: 5px;
+	bottom: 0px;
 	border: 0px; 
 }
