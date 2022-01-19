@@ -1,26 +1,23 @@
 @charset "UTF-8";
 
-
 body {
-	border: 3px solid orange;
-	border-bottom: 25px solid orange;
+	border: 5px solid orange;
 	margin: 0px;
 	background-color: orange;
 }
 
 h1 {
-	font-family: 'Sriracha';
+	font-family: 'Sriracha', cursive;
 	background-color: orange;
 	color: white;
 	text-align: center;
-	margin: -1px;
+	margin: 10px;
 }
 
 nav {
 	background-color: rgb(110, 196, 211);
 	position: relative;
-	height: 30px;
-	
+	height: 30px;	
 }
 
 a {
@@ -55,14 +52,12 @@ section.blue {
 	padding: 0px;
 	
 }
-section.swhite {
+section.white {
 	background-color: white;
 	position: relative;
 	height: 20px;
-
 	margin: 0px;
-	padding: 0px;
-	
+	padding: 0px;	
 }
 
 hr.blue {
@@ -78,6 +73,7 @@ hr.blue2 {
 	position: relative;
 	top: -30px;
 	border: 0px;
+	margin: 0px;
 }
 
 p.desplazado {
@@ -90,7 +86,7 @@ section.red {
 	background-color: rgb(110, 196, 211);
 	color: red;
 	position: relative;
-	margin: -1px;
+	margin: 0px;
 }
 
 img.derecha {
@@ -108,6 +104,7 @@ hr.red {
 	position: relative;
 	top: 20px;
 	border: 0px;
+	margin: 0px;
 }
 
 hr.red2 {
@@ -116,6 +113,7 @@ hr.red2 {
 	position: relative;
 	top: -15px;
 	border: 0px;
+	margin: 0px;
 }
 
 p.dos {
@@ -126,7 +124,7 @@ footer {
 	background-color: lightsalmon;
 	position: relative;
 	top: -10px;
-	margin: -1px;
+	margin: 0px;
 	height: 75px;
 }
 
@@ -144,13 +142,11 @@ p.centrado {
 	top: 15px;
 }
 
-hr.white {
-	box-sizing: content-box;
-	background-color: white;
-	height: 30px;	
-	margin: 0px;
-	padding: 0px;
+ul.mac {
+	list-style-type: katakana-iroha;
+	background-color: rgb(255, 245, 235);
 	position: relative;
-	bottom: 0px;
-	border: 0px; 
+	margin-left: 35px;
+	margin-right: 0px;
+	margin-bottom: 25px;
 }
